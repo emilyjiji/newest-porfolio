@@ -1,0 +1,44 @@
+.nav {
+    padding: 60px; /* Increase the padding value to make the navbar bigger */
+    background: #192A56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline;
+    padding: 10px;
+    background-color: black;
+  }
+  
+  .nav a {
+    color: aqua;
+    text-decoration: none;
+  }
+  
+  .menu {
+    padding: 20px;
+    background-color: black;
+    color: aqua;
+  }
+  
+  .title {
+    background: black;
+    color: white;
+    font-size: 32px;
+  }
+  
+  .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
