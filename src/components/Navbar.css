@@ -1,5 +1,6 @@
 .nav {
-    padding: 60px; /* Increase the padding value to make the navbar bigger */
+    padding: 30px; /* Increase the padding value to make the navbar bigger */
+    /* height: 115px; */
     background: #192A56;
     display: flex;
     justify-content: space-between;
