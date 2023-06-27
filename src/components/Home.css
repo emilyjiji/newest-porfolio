@@ -26,8 +26,8 @@
   }
   
 .circle {
-    width: 449px;
-    height: 340px;
+    width:600px;
+    height: 520px;
     flex-shrink: 0;
     background-color: #192A56;
     border: 10px solid #f8f8f8;
