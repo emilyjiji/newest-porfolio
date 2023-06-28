@@ -1,5 +1,5 @@
 .nav {
-    padding: 30px; /* Increase the padding value to make the navbar bigger */
+    padding: 25px; /* Increase the padding value to make the navbar bigger */
     /* height: 115px; */
     background: #192A56;
     display: flex;
@@ -11,27 +11,33 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
   }
   
   .nav li {
     display: inline;
     padding: 10px;
-    background-color: black;
+  }
+
+  .nav li:not(:last-child)::after {
+    content: "|";
+    color: #f8f8f8;
+    margin: 0 5px; /* Adjust as needed to control the spacing between | and li items */
+    margin-left: 25px; 
   }
   
   .nav a {
-    color: aqua;
+    color: #f8f8f8;
     text-decoration: none;
   }
   
   .menu {
     padding: 20px;
-    background-color: black;
-    color: aqua;
+    color: #f8f8f8;
+    border: 2px solid #f8f8f8;
   }
   
   .title {
-    background: black;
     color: white;
     font-size: 32px;
   }
