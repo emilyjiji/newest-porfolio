@@ -1,0 +1,62 @@
+.interests {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed for spacing */
+}
+  
+  .interests .title {
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+  }
+  
+  .interests .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed for spacing */
+  }
+  
+  .interests .circle {
+    width: 181px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #192A56;
+    margin: 0 5px; /* Adjust as needed for spacing */
+  }
+  
+  .technology {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed for spacing */
+    
+}
+  
+  .technology .title {
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+  }
+  
+  .technology .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+  
+  .technology .circles {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  
+  .technology .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+  }
+  
+  .technology .circle {
+    width: 181px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #192A56;
+    margin: 0 5px; /* Adjust as needed for spacing between circles */
+  }
+  
