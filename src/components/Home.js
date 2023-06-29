@@ -22,23 +22,23 @@ export default function Home() {
                         <br />
                         <br />
                         <br />
-                        I believe in creating a greener future by 
-developing innovative solutions that address environmental challenges.
+                        I believe in creating a greener future by
+                        developing innovative solutions that address environmental challenges.
                     </div>
                 </div>
                 <div className="circle">
-                <div className='txt'>
+                    <div className='txt'>
                         Finance
                         <br />
                         <br />
                         <br />
                         <br />
-                        I’m fascinated by the intersection of technology and finance, and how it can revolutionize the way we manage and optimize financial systems
-                    </div>
+                        I’m fascinated by the intersection of technology and finance, and how it can revolutionize the way we manage and optimize financial systems.
+                    </div> 
                 </div>
                 <div className="circle">
-                <div className='txt'>
-                       Design
+                    <div className='txt'>
+                        Design
                         <br />
                         <br />
                         <br />
