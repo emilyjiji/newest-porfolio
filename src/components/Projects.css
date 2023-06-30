@@ -73,15 +73,29 @@
     height: 1px;
     border-top: 1px dotted black;
     margin: 10px 0;
-    width: 80%;  
+    width: 1188.28px;  
      
   }
 
   .line-wrap{
     display: flex;
     justify-content: center;
-
   }
 
+  .vertical-line {
+    width: 1px;
+    border-left: 1px dotted black;
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+  }
+  
+  .left {
+    left: calc(50% - 80% / 2 - 10px); /* Adjust the value based on the width of the horizontal line */
+  }
+  
+  .right {
+    right: calc(50% - 80% / 2 - 10px); /* Adjust the value based on the width of the horizontal line */
+  }
   
   

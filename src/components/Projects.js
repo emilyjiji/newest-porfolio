@@ -1,5 +1,7 @@
+import DottedRectangularLine from './DottedRectangularLine';
 import './Projects.css';
 import React from 'react';
+
 
 export default function Projects() {
   // Define your projects data or fetch it from an API
@@ -52,11 +54,14 @@ export default function Projects() {
             </div>
           </div>
           <div className='line-wrap'>
-            <div className="line"></div> {/* Add the line element here */}
-            </div>
+            {/* <div className="line"></div> Add the line element here */}
+            <DottedRectangularLine />
+            {/* <div className="vertical-line left"></div>
+            <div className="vertical-line right"></div> */}
+          </div>
         </div>
       </div>
-      
+
     </div>
   );
 }
