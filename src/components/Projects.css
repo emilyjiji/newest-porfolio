@@ -70,10 +70,17 @@
   }
 
   .line {
-    /* Styles for the horizontal dotted line */
     height: 1px;
     border-top: 1px dotted black;
     margin: 10px 0;
+    width: 80%;  
+     
+  }
+
+  .line-wrap{
+    display: flex;
+    justify-content: center;
+
   }
 
   

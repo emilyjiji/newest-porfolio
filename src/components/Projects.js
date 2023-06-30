@@ -51,7 +51,9 @@ export default function Projects() {
               {renderCircles(3, technologyTextsRow2)}
             </div>
           </div>
+          <div className='line-wrap'>
             <div className="line"></div> {/* Add the line element here */}
+            </div>
         </div>
       </div>
       
