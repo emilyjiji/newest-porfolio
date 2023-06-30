@@ -38,25 +38,43 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 30px;
+    padding-bottom: 0;
   }
   
-  .technology .circles {
+
+.technology .row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+}
+
+.technology .circle {
+  width: 181px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: #192A56;
+  margin: 0 5px; /* Adjust as needed for spacing between circles */
+}
+
+  .circle-text {
+    /* Add styles for the text inside the circle */
+   
     display: flex;
+    font-size: 26px;
+   
+  }
+  .circle{
     justify-content: center;
-    margin: 30px;
+    text-align: center;
+    align-items: center;
   }
+
+  .line {
+    /* Styles for the horizontal dotted line */
+    height: 1px;
+    border-top: 1px dotted black;
+    margin: 10px 0;
+  }
+
   
-  .technology .row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; /* Adjust as needed for spacing between rows */
-  }
-  
-  .technology .circle {
-    width: 181px;
-    height: 74px;
-    border-radius: 50%;
-    background-color: #192A56;
-    margin: 0 5px; /* Adjust as needed for spacing between circles */
-  }
   
