@@ -18,9 +18,9 @@ export default function Projects() {
     return circles;
   };
 
-  const interestTexts = ['Interest 1', 'Interest 2', 'Interest 3'];
-  const technologyTextsRow1 = ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5'];
-  const technologyTextsRow2 = ['Technology 6', 'Technology 7', 'Technology 8'];
+  const interestTexts = ['Sustainability', 'Finance', 'Design'];
+  const technologyTextsRow1 = ['Python', 'Angular', 'ML/AI', 'React', 'HTML/CSS'];
+  const technologyTextsRow2 = ['C++', 'Java', 'TypeScript'];
 
   return (
     <div>
@@ -54,10 +54,7 @@ export default function Projects() {
             </div>
           </div>
           <div className='line-wrap'>
-            {/* <div className="line"></div> Add the line element here */}
             <DottedRectangularLine />
-            {/* <div className="vertical-line left"></div>
-            <div className="vertical-line right"></div> */}
           </div>
         </div>
       </div>
