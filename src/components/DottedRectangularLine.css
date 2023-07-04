@@ -1,5 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .rectangle {
-  width: 1188.28px;
-  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
   border: 1px dotted black;
+  padding: 16px;
+  margin-bottom: 16px; /* Add spacing between the cards and the dotted line */
 }
+
+.card {
+  flex: 0 0 calc(33.33% - 16px); /* Adjust the width of each card based on the number of cards per row */
+  margin: 8px; /* Add spacing between the cards */
+}
+

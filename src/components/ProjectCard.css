@@ -1,0 +1,22 @@
+.project-card {
+    width: 300px;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .project-card h3 {
+    font-size: 18px; /* Adjust this value to control the font size of the title */
+    margin-bottom: 8px; /* Adjust this value to control the spacing between the title and description */
+  }
+  
+  .project-card p {
+    font-size: 14px; /* Adjust this value to control the font size of the description */
+    margin-top: 4px; /* Adjust this value to control the spacing between the title and description */
+  }
+  
+  .project-card:last-child {
+    margin-right: 0; /* Remove margin-right from the last card in each row */
+  }
+  
+  
