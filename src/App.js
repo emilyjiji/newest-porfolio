@@ -1,32 +1,24 @@
-import './App.css';
-import './index.css';
 import {
   BrowserRouter,
-  Routes, 
+  Routes,
   Route,
-} from "react-router-dom";
+} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Projects from './components/Projects';
-
-
+import ProjectsPage from './components/ProjectsPage';
+import HomePage from './components/HomePage';
+// import './index.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <div className='content'>
-            <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            </Routes>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+      </Routes>
     </BrowserRouter>
   );
 }
 
-
 export default App;
+
 
