@@ -1,0 +1,9 @@
+.allProjects {
+    position: absolute;
+    width: 100%;
+    top: 9%;
+    bottom: 0px;
+    background: linear-gradient(181deg, #CD5C3F 0%, 
+    rgba(255, 127, 80, 0.75) 51.39%, 
+    #ffb38b59 100%);
+}

@@ -1,14 +1,15 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Projects from './Projects';
-// import './ProjectsPage.css';
+import './ProjectsPage.css';
+import NewProjects from './NewProjects';
 
 function ProjectsPage() {
   return (
-    <>
+    <div>
       <Navbar />
-      <Projects />
-    </>
+      <NewProjects />
+    </div>
   );
 }
 

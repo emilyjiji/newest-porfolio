@@ -43,7 +43,7 @@ export default function Home() {
                         <br />
                         <br />
                         <br />
-                        I have a strong appreciation for user-centric design and  strive to create intuitive and visually appealing experiences.
+                        I have a strong appreciation for user-centric design and strive to create intuitive and visually appealing experiences.
                     </div>
                 </div>
             </div>

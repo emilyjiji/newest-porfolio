@@ -6,7 +6,7 @@ import {
 import Navbar from './components/Navbar';
 import ProjectsPage from './components/ProjectsPage';
 import HomePage from './components/HomePage';
-// import './index.css';
+ import './index.css';
 
 function App() {
   return (
