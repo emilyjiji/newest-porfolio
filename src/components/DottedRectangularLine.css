@@ -3,15 +3,29 @@
 @import 'tailwindcss/utilities';
 
 .rectangle {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 8px;
   border: 1px dotted black;
   padding: 16px;
   margin-bottom: 16px; /* Add spacing between the cards and the dotted line */
+  align-items: start; /* Align cards to the top */
 }
 
 .card {
-  flex: 0 0 calc(33.33% - 16px); /* Adjust the width of each card based on the number of cards per row */
-  margin: 8px; /* Add spacing between the cards */
+  padding-left: 16px; /* Add left padding to the card */
 }
+
+.card:last-child {
+  padding-right: 0; /* Remove right padding from the last card in each row */
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding-left: 0; /* Remove left padding on smaller screens */
+  }
+}
+
+
 

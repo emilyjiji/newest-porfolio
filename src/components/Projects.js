@@ -53,11 +53,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <div className="technology">
         <div className="title">
           <h3>Technology</h3>

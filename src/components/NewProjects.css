@@ -3,7 +3,37 @@
     width: 100%;
     top: 9%;
     bottom: 0px;
-    background: linear-gradient(181deg, #CD5C3F 0%, 
-    rgba(255, 127, 80, 0.75) 51.39%, 
-    #ffb38b59 100%);
+    background: linear-gradient(181deg, #CD5C3F 0%,
+            rgba(255, 127, 80, 0.75) 51.39%,
+            #ffb38b59 100%);
 }
+
+.interests {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transform: translateX(50%);
+}
+
+.interests .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .interests .circle {
+    width: 181px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #192a56;
+    margin: 0 5px;
+  }
+
+
+
+
+
+
+

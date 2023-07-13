@@ -1,25 +1,28 @@
-.projectPage {
+ .projectPage {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  min-height: 88.8vh; /* Set a minimum height to cover the viewport */
   background: linear-gradient(
     181deg,
     #cd5c3f 0%,
     rgba(255, 127, 80, 0.75) 51.39%,
     rgba(255, 179, 139, 0.35) 100%
   );
-}
-
+} 
 
 .interests {
-  margin-top: 50px;
+  padding-left: 690px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: red;
 }
 
 
@@ -46,6 +49,7 @@
 .technology {
   text-align: center;
   margin-top: 50px;
+  padding-left: 1125.3px;
 }
 
 .technology .title {
@@ -124,4 +128,4 @@
 
 .project-card:last-child {
   margin-right: 0;
-}
+} 
