@@ -9,24 +9,32 @@ export default function DottedRectangularLine({ selectedCircles }) {
       description: 'Description of Project 1',
       interests: ['Sustainability'],
       technology: ['Python', 'Angular'],
+      image: '',
+      links: ['', '']
     },
     {
       title: 'Project 2',
       description: 'Description of Project 2',
       interests: ['Sustainability', 'Finance'],
       technology: ['React', 'HTML/CSS'],
+      image: '',
+      links: ['', '']
     },
     {
       title: 'Project 3',
       description: 'Description of Project 3',
       interests: ['Finance'],
       technology: ['Java'],
+      image: '',
+      links: ['', '']
     },
     {
       title: 'Project 4',
       description: 'Description of Project 4',
       interests: ['Design'],
       technology: ['C++'],
+      image: '',
+      links: ['', '']
     },
     // Add more projects as needed
   ];
@@ -56,6 +64,10 @@ export default function DottedRectangularLine({ selectedCircles }) {
             key={index}
             title={project.title}
             description={project.description}
+            interests={project.interests}
+            technology={project.technology}
+            image={project.image}
+            links={project.links}
           />
         ))
       ) : (

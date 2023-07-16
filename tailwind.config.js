@@ -1,14 +1,12 @@
-module.exports = {
-  purge: [],
-  darkMode: false, // Set to 'media' or 'class' if you want to enable dark mode
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+export const purge = [];
+export const darkMode = false;
+export const content = [
+  "./src/**/*.{js,jsx,ts,tsx}",
+];
+export const theme = {
+  extend: {},
 };
+export const variants = {
+  extend: {},
+};
+export const plugins = [];
