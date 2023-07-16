@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 88.8vh; /* Set a minimum height to cover the viewport */
+  min-height: 88.0vh;
+  padding-top: 30px;
   background: linear-gradient(
     181deg,
     #cd5c3f 0%,
@@ -108,9 +109,9 @@
 
 .project-card {
   width: 300px;
-  padding: 16px;
   margin-right: 16px;
   margin-bottom: 16px;
+  padding-bottom: 16px;;
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
