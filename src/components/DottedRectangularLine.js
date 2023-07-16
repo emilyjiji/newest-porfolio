@@ -1,6 +1,7 @@
 import React from 'react';
 import './DottedRectangularLine.css';
 import ProjectCard from './ProjectCard';
+import coralimg from './img/coralimg.jfif';
 
 export default function DottedRectangularLine({ selectedCircles }) {
   const projects = [
@@ -8,8 +9,8 @@ export default function DottedRectangularLine({ selectedCircles }) {
       title: 'Project 1',
       description: 'Description of Project 1',
       interests: ['Sustainability'],
-      technology: ['Python', 'Angular'],
-      image: '',
+      technology: ['Python', 'ML/AI', 'React', 'HTML/CSS'],
+      image: coralimg,
       links: ['', '']
     },
     {

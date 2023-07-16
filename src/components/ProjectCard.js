@@ -9,21 +9,25 @@ export default function ProjectCard({ title, description, interests, technology,
     setPopupOpen(!isPopupOpen);
   };
 
+  // Dummy image URL
+  const dummyImage = 'https://via.placeholder.com/300';
+
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg project-card">
-      <div className="font-bold mb-2 px-6 py-4" style={{ color: 'rgb(25, 42, 86)' }}>{title}</div>
-      {/* <img className="w-full" src={image} alt={title} /> */}
-      <div className="px-6 py-4" style={{ color: 'rgb(25, 42, 86)' }}>
+      <div className="relative">
+        <img className="w-full h-48 object-cover" src={image || dummyImage} alt={title} />
+        <div className="absolute bottom-0 left-0 bg-white p-2">{title}</div>
+      </div>
+      <div className="px-6 py-4">
         <p className="text-base">{description}</p>
       </div>
-      <div className="px-6 pt-4 pb-2" >
+      <div className="px-6 pt-4 pb-2">
         {interests.map((interest, index) => (
-          <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold  mr-2 mb-2">
+          <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
             #{interest}
           </span>
         ))}
       </div>
-      
       <div className="px-6 pb-2">
         {technology.map((tech, index) => (
           <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 text-blue-500">
@@ -41,6 +45,7 @@ export default function ProjectCard({ title, description, interests, technology,
     </div>
   );
 }
+
 
 
 
